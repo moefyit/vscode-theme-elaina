@@ -1,16 +1,6 @@
 import { promises as fs } from 'node:fs'
 
-import {
-  darken,
-  toHex,
-  lighten,
-  saturate,
-  desaturate,
-  adjustHue,
-  opacify,
-  mix,
-  transparentize,
-} from 'color2k'
+import { darken, toHex, lighten, adjustHue, transparentize } from 'color2k'
 
 const primiaryColor = '#ffb7c5'
 
@@ -24,7 +14,6 @@ const basicColors = {
   yellow: '#FFE66D',
   blue: '#7cb7ff',
   pink: '#ff00aa',
-  // pink: '#ffb7c5',
   orange: '#f39c12',
   purple: '#c74ded',
 }
@@ -102,6 +91,11 @@ const theme = {
     'sideBarSectionHeader.background': uiColors.background,
     'sideBarTitle.foreground': primiaryColor,
 
+    // List
+    'list.hoverBackground': toHex(darken(uiColors.background, 0.01)),
+    'list.inactiveSelectionBackground': toHex(darken(uiColors.background, 0.02)),
+    'list.activeSelectionBackground': toHex(darken(uiColors.background, 0.03)),
+
     // Tab
     'editorGroup.dropBackground': uiColors.dropBackground,
     'editorGroupHeader.tabsBackground': toHex(lighten(uiColors.background, 0.03)),
@@ -118,10 +112,10 @@ const theme = {
     'statusBarItem.hoverBackground': toHex(transparentize(primiaryColor, 0.5)), // '#07d4b5b0',
     'statusBarItem.prominentBackground': '#07d4b5b0',
     'statusBarItem.prominentHoverBackground': '#00e8c5cc',
-    'statusBarItem.remoteBackground': primiaryColor,
+    'statusBarItem.remoteBackground': uiColors.buttonBackground,
     'statusBarItem.remoteForeground': toHex(darken(uiColors.background, 0.05)),
-    'statusBarItem.warningBackground': toHex(transparentize(basicColors.yellow, 0.5)),
-    'statusBarItem.errorBackground': toHex(transparentize(basicColors.red, 0.5)),
+    'statusBarItem.warningBackground': toHex(transparentize('yellow', 0.5)),
+    'statusBarItem.errorBackground': toHex(transparentize('red', 0.5)),
 
     // Terminal
     'terminal.ansiRed': basicColors.red,
