@@ -1,0 +1,30 @@
+{
+  "name": "theme-elaina",
+  "displayName": "vscode-theme-elaina",
+  "description": "「澄み渡った青空をゆく、そこに人がいたのなら間違いなく誰もが振り返り、ため息をこぼしてしまうほどの美貌の魔女は、いったい誰でしょう？」",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "build": "tsx src/index.mts",
+    "watch": "tsx watch src/index.mts"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Elaina",
+        "uiTheme": "vs-dark",
+        "path": "./themes/elaina-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "color2k": "^2.0.2",
+    "tsx": "^3.12.2"
+  }
+}
