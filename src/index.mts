@@ -95,6 +95,7 @@ const theme = {
     'list.hoverBackground': toHex(darken(uiColors.background, 0.01)),
     'list.inactiveSelectionBackground': toHex(darken(uiColors.background, 0.02)),
     'list.activeSelectionBackground': toHex(darken(uiColors.background, 0.03)),
+    focusBorder: toHex(transparentize(uiColors.border, 0.5)),
 
     // Tab
     'editorGroup.dropBackground': uiColors.dropBackground,
