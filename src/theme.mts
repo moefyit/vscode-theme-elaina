@@ -55,6 +55,7 @@ export const theme = {
     'editor.lineHighlightBorder': toHex(transparentize(uiColors.border, 0.8)),
     'editor.selectionBackground': toHex(transparentize(uiColors.selectionBackground, 0.8)),
     'editor.inactiveSelectionBackground': toHex(transparentize(uiColors.selectionBackground, 0.9)),
+    'editorCursor.foreground': toHex(transparentize(primaryColor, 0.2)),
 
     // Terminal
     'terminal.ansiRed': basicColors.red,
@@ -70,7 +71,7 @@ export const theme = {
     'terminal.ansiBrightMagenta': basicColors.pink,
     'terminal.ansiBrightCyan': basicColors.cyan,
     'terminalCursor.background': uiColors.background,
-    'terminalCursor.foreground': basicColors.yellow, // TODO
+    'terminalCursor.foreground': primaryColor,
 
     // Inlay Hint
     'editorInlayHint.background': uiColors.inlayHintBackground,
