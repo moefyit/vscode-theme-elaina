@@ -22,6 +22,7 @@ export const theme = {
     'sideBar.foreground': uiColors.inactiveForeground,
     'sideBarSectionHeader.background': uiColors.background,
     'sideBarTitle.foreground': primaryColor,
+    'progressBar.background': uiColors.info,
 
     // List
     'list.hoverBackground': toHex(darken(uiColors.background, 0.01)),

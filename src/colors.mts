@@ -19,7 +19,7 @@ export const basicColors = {
 export const uiColors = {
   background: '#2C2A35',
   foreground: '#E0E2F0',
-  inactiveForeground: '#746f77',
+  inactiveForeground: '#778b8a',
   activeForeground: basicColors.cyan,
   border: '#ffb7c5',
 
