@@ -63,7 +63,7 @@
     "button.hoverBackground": "#f6d1ff",
     "input.background": "#34313f",
     "input.border": "#444153",
-    "input.foreground": "#ffd1da",
+    "input.foreground": "#ffe0e7",
     "input.placeholderForeground": "#778b8a",
     "dropdown.background": "#26242e",
     "minimap.background": "#211f28",

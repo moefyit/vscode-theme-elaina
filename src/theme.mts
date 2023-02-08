@@ -86,7 +86,7 @@ export const theme = {
     // Input
     'input.background': toHex(lighten(uiColors.background, 0.03)),
     'input.border': toHex(lighten(uiColors.background, 0.1)),
-    'input.foreground': toHex(lighten(primaryColor, 0.05)),
+    'input.foreground': toHex(lighten(primaryColor, 0.08)),
     'input.placeholderForeground': uiColors.inactiveForeground,
 
     // Dropdown
