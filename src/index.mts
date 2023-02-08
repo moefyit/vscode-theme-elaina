@@ -150,11 +150,17 @@ const theme = {
     'input.foreground': toHex(lighten(primiaryColor, 0.05)),
     'input.placeholderForeground': uiColors.inactiveForeground,
 
+    // Dropdown
+    'dropdown.background': toHex(darken(uiColors.background, 0.03)),
+
     // Mini Map
     'minimap.background': toHex(darken(uiColors.background, 0.05)),
 
     // Widgets
-    'quickInput.background': toHex(darken(uiColors.background, 0.1)),
+    'quickInput.background': toHex(darken(uiColors.background, 0.05)),
+    'editorSuggestWidget.background': toHex(darken(uiColors.background, 0.05)),
+    'editorSuggestWidget.selectedBackground': toHex(lighten(uiColors.background, 0.03)),
+    'editorWidget.background': toHex(darken(uiColors.background, 0.05)),
     'widget.shadow': toHex(transparentize(uiColors.border, 0.8)),
 
     // Info & Warning & Error
