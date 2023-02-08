@@ -20,7 +20,7 @@
     "ColorTheme",
     "Elaina"
   ],
-  "icon": "./images/icon-128x128.png",
+  "icon": "images/icon-128x128.png",
   "scripts": {
     "build": "tsx src/index.mts",
     "watch": "tsx watch src/index.mts",
