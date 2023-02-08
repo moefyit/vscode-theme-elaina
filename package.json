@@ -2,7 +2,7 @@
   "name": "theme-elaina",
   "displayName": "vscode-theme-elaina",
   "description": "「澄み渡った青空をゆく、そこに人がいたのなら間違いなく誰もが振り返り、ため息をこぼしてしまうほどの美貌の魔女は、いったい誰でしょう？」",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Nyakku Shigure <sigure.qaq@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -20,6 +20,7 @@
     "ColorTheme",
     "Elaina"
   ],
+  "icon": "./images/icon-128x128.png",
   "scripts": {
     "build": "tsx src/index.mts",
     "watch": "tsx watch src/index.mts",

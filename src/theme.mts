@@ -1,5 +1,5 @@
 import { darken, toHex, lighten, transparentize } from 'color2k'
-import { primiaryColor, basicColors, uiColors, tokenHighlightColors } from './colors.mjs'
+import { primaryColor, basicColors, uiColors, tokenHighlightColors } from './colors.mjs'
 
 export const theme = {
   $schema: 'vscode://schemas/color-theme',
@@ -12,7 +12,7 @@ export const theme = {
 
     // Activity Bar
     'activityBar.background': toHex(darken(uiColors.background, 0.03)),
-    'activityBar.foreground': primiaryColor,
+    'activityBar.foreground': primaryColor,
     'activityBar.inactiveForeground': uiColors.inactiveForeground,
     'activityBarBadge.background': uiColors.badgeBackground,
     'activityBarBadge.foreground': toHex(darken(uiColors.background, 0.03)), // Same as activityBar.background
@@ -21,7 +21,7 @@ export const theme = {
     'sideBar.background': toHex(lighten(uiColors.background, 0.01)),
     'sideBar.foreground': uiColors.inactiveForeground,
     'sideBarSectionHeader.background': uiColors.background,
-    'sideBarTitle.foreground': primiaryColor,
+    'sideBarTitle.foreground': primaryColor,
 
     // List
     'list.hoverBackground': toHex(darken(uiColors.background, 0.01)),
@@ -42,7 +42,7 @@ export const theme = {
     'statusBar.debuggingBackground': '#FC644D',
     'statusBar.noFolderBackground': '#23262E',
     'statusBarItem.activeBackground': '#00e8c5cc',
-    'statusBarItem.hoverBackground': toHex(transparentize(primiaryColor, 0.5)),
+    'statusBarItem.hoverBackground': toHex(transparentize(primaryColor, 0.5)),
     'statusBarItem.prominentBackground': '#07d4b5b0',
     'statusBarItem.prominentHoverBackground': '#00e8c5cc',
     'statusBarItem.remoteBackground': uiColors.buttonBackground,
@@ -85,7 +85,7 @@ export const theme = {
     // Input
     'input.background': toHex(lighten(uiColors.background, 0.03)),
     'input.border': toHex(lighten(uiColors.background, 0.1)),
-    'input.foreground': toHex(lighten(primiaryColor, 0.05)),
+    'input.foreground': toHex(lighten(primaryColor, 0.05)),
     'input.placeholderForeground': uiColors.inactiveForeground,
 
     // Dropdown

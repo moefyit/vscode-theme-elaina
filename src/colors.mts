@@ -1,6 +1,6 @@
 import { darken, toHex, adjustHue } from 'color2k'
 
-export const primiaryColor = '#ffb7c5'
+export const primaryColor = '#ffb7c5'
 
 export const basicColors = {
   black: '#1c1c1c',
@@ -24,8 +24,8 @@ export const uiColors = {
   border: '#ffb7c5',
 
   dropBackground: '#495061d7',
-  buttonBackground: toHex(adjustHue(primiaryColor, -60)),
-  badgeBackground: primiaryColor,
+  buttonBackground: toHex(adjustHue(primaryColor, -60)),
+  badgeBackground: primaryColor,
   selectionBackground: basicColors.blue,
 
   inlayHintBackground: '#8b949e1c',
