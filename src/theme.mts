@@ -23,6 +23,9 @@ export const theme = {
     'sideBarSectionHeader.background': uiColors.background,
     'sideBarTitle.foreground': primaryColor,
     'progressBar.background': uiColors.info,
+    'badge.background': uiColors.badgeBackground,
+    'badge.foreground': toHex(uiColors.background),
+    'scrollbar.shadow': toHex(transparentize(uiColors.border, 0.8)),
 
     // List
     'list.hoverBackground': toHex(darken(uiColors.background, 0.01)),
