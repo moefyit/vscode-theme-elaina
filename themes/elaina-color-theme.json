@@ -144,6 +144,7 @@
         "string.quoted.docstring",
         "string.quoted.docstring punctuation.definition.string.end.python",
         "comment.block.javadoc",
+        "comment.line.documentation.rust",
         "comment.block.documentation"
       ],
       "settings": {

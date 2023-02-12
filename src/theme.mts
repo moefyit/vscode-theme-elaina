@@ -172,6 +172,8 @@ export const theme = {
         'string.quoted.docstring punctuation.definition.string.end.python',
         // For Java javadoc
         'comment.block.javadoc',
+        // For Rust doc
+        'comment.line.documentation.rust',
         // For Other Languages
         'comment.block.documentation',
       ],
