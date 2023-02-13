@@ -235,7 +235,6 @@
     {
       "name": "Literal",
       "scope": [
-        "markup.bold",
         "constant.numeric"
       ],
       "settings": {
@@ -344,11 +343,30 @@
       }
     },
     {
+      "name": "Markup Bold",
+      "scope": [
+        "markup.bold"
+      ],
+      "settings": {
+        "foreground": "#f39c12",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Italic",
+      "scope": [
+        "markup.italic"
+      ],
+      "settings": {
+        "foreground": "#7cb7ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Link",
       "scope": [
         "meta.link",
         "meta.image",
-        "markup.italic",
         "source.js support.type"
       ],
       "settings": {

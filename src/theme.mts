@@ -279,7 +279,7 @@ export const theme = {
     },
     {
       name: 'Literal',
-      scope: ['markup.bold', 'constant.numeric'],
+      scope: ['constant.numeric'],
       settings: {
         foreground: tokenHighlightColors.literal,
       },
@@ -367,8 +367,24 @@ export const theme = {
       },
     },
     {
+      name: 'Markup Bold',
+      scope: ['markup.bold'],
+      settings: {
+        foreground: basicColors.orange,
+        fontStyle: 'bold',
+      },
+    },
+    {
+      name: 'Markup Italic',
+      scope: ['markup.italic'],
+      settings: {
+        foreground: basicColors.blue,
+        fontStyle: 'italic',
+      },
+    },
+    {
       name: 'Link',
-      scope: ['meta.link', 'meta.image', 'markup.italic', 'source.js support.type'],
+      scope: ['meta.link', 'meta.image', 'source.js support.type'],
       settings: {
         foreground: tokenHighlightColors.link,
       },
