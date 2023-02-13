@@ -366,6 +366,7 @@ export const theme = {
         foreground: tokenHighlightColors.storage,
       },
     },
+    // Markup specific
     {
       name: 'Markup Bold',
       scope: ['markup.bold'],
@@ -383,6 +384,16 @@ export const theme = {
       },
     },
     {
+      name: 'Math',
+      scope: [
+        'punctuation.definition.math.begin.markdown',
+        'punctuation.definition.math.end.markdown',
+      ],
+      settings: {
+        foreground: basicColors.blue,
+      },
+    },
+    {
       name: 'Link',
       scope: ['meta.link', 'meta.image', 'source.js support.type'],
       settings: {
@@ -396,6 +407,7 @@ export const theme = {
         fontStyle: 'underline',
       },
     },
+    // Font Styles
     {
       name: 'Underline',
       scope: ['entity.other.inherited-class'],

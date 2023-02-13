@@ -363,6 +363,16 @@
       }
     },
     {
+      "name": "Math",
+      "scope": [
+        "punctuation.definition.math.begin.markdown",
+        "punctuation.definition.math.end.markdown"
+      ],
+      "settings": {
+        "foreground": "#7cb7ff"
+      }
+    },
+    {
       "name": "Link",
       "scope": [
         "meta.link",
