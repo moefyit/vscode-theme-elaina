@@ -101,7 +101,8 @@
     "class": "#0cae00",
     "function": "#FFE66D",
     "macro": "#c74ded",
-    "struct": "#0cae00"
+    "struct": "#0cae00",
+    "comment.documentation": "#44a760"
   },
   "tokenColors": [
     {
@@ -159,7 +160,7 @@
         "comment.block.documentation"
       ],
       "settings": {
-        "foreground": "#7163ea",
+        "foreground": "#44a760",
         "fontStyle": "italic"
       }
     },

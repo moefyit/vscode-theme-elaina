@@ -135,6 +135,7 @@ export const theme = {
     function: tokenHighlightColors.function,
     macro: tokenHighlightColors.macro,
     struct: tokenHighlightColors.struct,
+    'comment.documentation': tokenHighlightColors.documentation,
   },
   tokenColors: [
     {

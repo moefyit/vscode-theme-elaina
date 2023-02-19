@@ -42,7 +42,7 @@ export const tokenHighlightColors = {
   comment: '#5f6167',
   text: uiColors.foreground,
   string: basicColors.green,
-  documentation: '#7163ea',
+  documentation: '#44a760', // Comment (gray) + String (green)
   regex: '#7cb7ff',
   module: '#55c9ff',
   variable: basicColors.cyan,
