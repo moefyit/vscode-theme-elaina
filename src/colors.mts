@@ -31,6 +31,8 @@ export const uiColors = {
   inlayHintBackground: '#8b949e1c',
   inlayHintForeground: '#8b949e',
 
+  matchHighlightBackground: '#FF9F2E60',
+
   info: '#00b0ff',
   warning: basicColors.yellow,
   error: basicColors.red,

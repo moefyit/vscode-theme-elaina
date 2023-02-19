@@ -96,6 +96,16 @@ export const theme = {
     // Dropdown
     'dropdown.background': toHex(darken(uiColors.background, 0.03)),
 
+    // PeekView
+    'peekView.border': uiColors.background,
+    'peekViewEditor.background': basicColors.black,
+    'peekViewEditor.matchHighlightBackground': uiColors.matchHighlightBackground,
+    'peekViewResult.background': basicColors.black,
+    'peekViewResult.matchHighlightBackground': uiColors.matchHighlightBackground,
+    'peekViewResult.selectionBackground': uiColors.background,
+    'peekViewTitle.background': basicColors.black,
+    'peekViewTitleDescription.foreground': uiColors.activeForeground,
+
     // Mini Map
     'minimap.background': toHex(darken(uiColors.background, 0.05)),
 
