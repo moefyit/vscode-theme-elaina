@@ -102,7 +102,7 @@
     "function": "#FFE66D",
     "macro": "#c74ded",
     "struct": "#0cae00",
-    "comment.documentation": "#6e8f59"
+    "comment.documentation": "#8ca777"
   },
   "tokenColors": [
     {
@@ -114,7 +114,7 @@
         "meta.diff.header"
       ],
       "settings": {
-        "foreground": "#5f6167"
+        "foreground": "#a0a1a7cc"
       }
     },
     {
@@ -160,7 +160,7 @@
         "comment.block.documentation"
       ],
       "settings": {
-        "foreground": "#6e8f59",
+        "foreground": "#8ca777",
         "fontStyle": "italic"
       }
     },

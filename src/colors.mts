@@ -1,4 +1,4 @@
-import { darken, toHex, adjustHue } from 'color2k'
+import { darken, toHex, adjustHue, mix } from 'color2k'
 
 export const primaryColor = '#ffb7c5'
 
@@ -39,10 +39,10 @@ export const uiColors = {
 }
 
 export const tokenHighlightColors = {
-  comment: '#5f6167',
+  comment: '#a0a1a7cc',
   text: uiColors.foreground,
   string: basicColors.green,
-  documentation: '#6e8f59', // Comment (gray) + String (green)
+  documentation: '#8ca777', // Comment (gray) + String (green)
   regex: '#7cb7ff',
   module: '#55c9ff',
   variable: basicColors.cyan,
