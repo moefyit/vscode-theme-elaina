@@ -22,6 +22,7 @@
     "list.hoverBackground": "#2a2833",
     "list.inactiveSelectionBackground": "#282631",
     "list.activeSelectionBackground": "#26242e",
+    "list.dropBackground": "#26242e",
     "focusBorder": "#ffb7c580",
     "editorGroup.dropBackground": "#495061d7",
     "editorGroupHeader.tabsBackground": "#34313f",
