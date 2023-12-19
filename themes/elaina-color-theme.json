@@ -59,6 +59,7 @@
     "terminal.ansiBrightCyan": "#00e8c6",
     "terminalCursor.background": "#2C2A35",
     "terminalCursor.foreground": "#ffb7c5",
+    "terminalStickyScrollHover.background": "#26242e",
     "editorInlayHint.background": "#8b949e1c",
     "editorInlayHint.foreground": "#8b949e",
     "editorInlayHint.typeBackground": "#8b949e1c",

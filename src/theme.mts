@@ -76,6 +76,7 @@ export const theme = {
     'terminal.ansiBrightCyan': basicColors.cyan,
     'terminalCursor.background': uiColors.background,
     'terminalCursor.foreground': primaryColor,
+    'terminalStickyScrollHover.background': toHex(darken(uiColors.background, 0.03)),
 
     // Inlay Hint
     'editorInlayHint.background': uiColors.inlayHintBackground,
