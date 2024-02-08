@@ -10,6 +10,9 @@ export const theme = {
     'editor.background': uiColors.background,
     'editor.foreground': uiColors.foreground,
 
+    // Title Bar
+    'titleBar.activeBackground': uiColors.background,
+
     // Activity Bar
     'activityBar.background': toHex(darken(uiColors.background, 0.03)),
     'activityBar.foreground': primaryColor,
