@@ -125,6 +125,11 @@ export const theme = {
     'editorError.foreground': uiColors.error,
     'editorWarning.foreground': uiColors.warning,
     'editorInfo.foreground': uiColors.info,
+
+    // Git specific
+    'gitDecoration.ignoredResourceForeground': toHex(
+      transparentize(uiColors.inactiveForeground, 0.25)
+    ),
   },
   semanticHighlighting: true,
   semanticTokenColors: {

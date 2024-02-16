@@ -89,7 +89,8 @@
     "widget.shadow": "#ffb7c533",
     "editorError.foreground": "#ee5d43",
     "editorWarning.foreground": "#FFE66D",
-    "editorInfo.foreground": "#00b0ff"
+    "editorInfo.foreground": "#00b0ff",
+    "gitDecoration.ignoredResourceForeground": "#778b8abf"
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
