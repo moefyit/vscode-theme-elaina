@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.8.7",
-    "@vscode/vsce": "^2.21.1",
+    "@vscode/vsce": "^3.0.0",
     "color2k": "^2.0.2",
     "tsx": "^4.0.0"
   }
