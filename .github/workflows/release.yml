@@ -9,6 +9,8 @@ on:
 jobs:
   release-build:
     runs-on: ubuntu-latest
+    outputs:
+      extension-path: ${{ steps.set-extension-path-to-output.outputs.extension-path }}
 
     steps:
       - name: Checkout
@@ -38,10 +40,7 @@ jobs:
 
       - name: Set extension path to output
         id: set-extension-path-to-output
-        run: echo "extension_path=$(pwd)/dist/`pnpm --silent get-extension-name`" >> $GITHUB_ENV
-
-    outputs:
-      extension-path: ${{ steps.set-extension-path-to-output.outputs.extension-path }}
+        run: echo "extension-path=$(pwd)/dist/`pnpm --silent get-extension-name`" >> $GITHUB_ENV
 
   publish-open-vsx:
     runs-on: ubuntu-latest
@@ -58,6 +57,9 @@ jobs:
         with:
           name: release-dists
           path: dist/
+
+      - name: Show extension path
+        run: echo "Extension path: ${{ needs.release-build.outputs.extension-path }}"
 
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v2
