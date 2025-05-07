@@ -59,10 +59,6 @@ jobs:
           name: release-dists
           path: dist/
 
-      - name: Show extension path
-        run: |
-          echo 'Extension path: ${{ needs.release-build.outputs.extension-path }}'
-
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v2
         with:
