@@ -23,6 +23,9 @@ jobs:
           node-version: '22'
           cache: 'pnpm'
 
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
       - name: build release distributions
         run: |
           pnpm package
