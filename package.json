@@ -5,6 +5,7 @@
   "version": "0.0.14",
   "author": "Nyakku Shigure <sigure.qaq@gmail.com>",
   "license": "MIT",
+  "packageManager": "pnpm@10.10.0",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/moefyit/vscode-theme-elaina.git"
