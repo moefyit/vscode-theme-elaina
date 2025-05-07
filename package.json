@@ -25,7 +25,9 @@
   "scripts": {
     "build": "tsx src/index.mts",
     "watch": "tsx watch src/index.mts",
-    "release": "vsce package && vsce publish"
+    "get-extension-name": "tsx scripts/getExtensionName.mts",
+    "release": "vsce package && vsce publish",
+    "package": "mkdir -p dist/ && vsce package -o dist/$(pnpm --silent get-extension-name)"
   },
   "contributes": {
     "themes": [
