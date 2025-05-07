@@ -40,7 +40,8 @@ jobs:
 
       - name: Set extension path to output
         id: set-extension-path-to-output
-        run: echo "extension-path=$(pwd)/dist/`pnpm --silent get-extension-name`" >> $GITHUB_ENV
+        run: |
+          echo "extension-path=$(pwd)/dist/`pnpm --silent get-extension-name`" >> $GITHUB_OUTPUT
 
   publish-open-vsx:
     runs-on: ubuntu-latest
