@@ -38,7 +38,7 @@ jobs:
 
       - name: Set extension path to output
         id: set-extension-path-to-output
-        run: echo "EXTENSION_PATH=$(pwd)/dist/`pnpm --silent get-extension-name`" >> $GITHUB_ENV
+        run: echo "extension_path=$(pwd)/dist/`pnpm --silent get-extension-name`" >> $GITHUB_ENV
 
     outputs:
       extension-path: ${{ steps.set-extension-path-to-output.outputs.extension-path }}
