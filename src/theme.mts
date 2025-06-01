@@ -116,6 +116,7 @@ export const theme = {
 
     // Widgets
     'quickInput.background': toHex(darken(uiColors.background, 0.05)),
+    'quickInputList.focusBackground': toHex(lighten(uiColors.background, 0.01)),
     'editorSuggestWidget.background': toHex(darken(uiColors.background, 0.05)),
     'editorSuggestWidget.selectedBackground': toHex(lighten(uiColors.background, 0.03)),
     'editorWidget.background': toHex(darken(uiColors.background, 0.05)),
