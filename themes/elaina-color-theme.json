@@ -83,6 +83,7 @@
     "peekViewTitleDescription.foreground": "#00e8c6",
     "minimap.background": "#211f28",
     "quickInput.background": "#211f28",
+    "quickInputList.focusBackground": "#2f2d39",
     "editorSuggestWidget.background": "#211f28",
     "editorSuggestWidget.selectedBackground": "#34313f",
     "editorWidget.background": "#211f28",
