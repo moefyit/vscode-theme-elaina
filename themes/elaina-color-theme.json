@@ -31,6 +31,7 @@
     "tab.inactiveBackground": "#34313f",
     "tab.activeForeground": "#00e8c6",
     "tab.inactiveForeground": "#778b8a",
+    "tab.activeBorder": "#ffb7c5",
     "statusBar.background": "#211f28",
     "statusBar.debuggingBackground": "#FC644D",
     "statusBar.noFolderBackground": "#23262E",

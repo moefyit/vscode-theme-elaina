@@ -44,6 +44,7 @@ export const theme = {
     'tab.inactiveBackground': toHex(lighten(uiColors.background, 0.03)),
     'tab.activeForeground': uiColors.activeForeground,
     'tab.inactiveForeground': uiColors.inactiveForeground,
+    'tab.activeBorder': primaryColor,
 
     // Status Bar
     'statusBar.background': toHex(darken(uiColors.background, 0.05)),
