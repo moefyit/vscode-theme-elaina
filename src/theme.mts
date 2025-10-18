@@ -1,5 +1,5 @@
 import { darken, toHex, lighten, transparentize } from 'color2k'
-import { primaryColor, basicColors, uiColors, tokenHighlightColors } from './colors.mjs'
+import { primaryColor, basicColors, uiColors, tokenHighlightColors } from './colors.mts'
 
 export const theme = {
   $schema: 'vscode://schemas/color-theme',

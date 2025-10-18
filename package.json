@@ -23,9 +23,9 @@
   ],
   "icon": "images/icon-128x128.png",
   "scripts": {
-    "build": "tsx src/index.mts",
-    "watch": "tsx watch src/index.mts",
-    "get-extension-name": "tsx scripts/getExtensionName.mts",
+    "build": "node src/index.mts",
+    "watch": "node --watch src/index.mts",
+    "get-extension-name": "node scripts/getExtensionName.mts",
     "release": "vsce package && vsce publish",
     "package": "mkdir -p dist/ && vsce package -o dist/$(pnpm --silent get-extension-name)"
   },
@@ -39,9 +39,8 @@
     ]
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@vscode/vsce": "^3.0.0",
-    "color2k": "^2.0.2",
-    "tsx": "^4.0.0"
+    "@types/node": "^24.8.1",
+    "@vscode/vsce": "^3.6.2",
+    "color2k": "^2.0.3"
   }
 }

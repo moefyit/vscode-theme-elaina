@@ -1,5 +1,5 @@
 import { promises as fs } from 'node:fs'
-import { theme } from './theme.mjs'
+import { theme } from './theme.mts'
 
 const themeDir = './themes'
 
