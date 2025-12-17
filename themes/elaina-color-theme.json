@@ -96,6 +96,7 @@
   },
   "semanticHighlighting": true,
   "semanticTokenColors": {
+    "namespace": "#55c9ff",
     "module": "#55c9ff",
     "variable": "#00e8c6",
     "method": "#FFE66D",

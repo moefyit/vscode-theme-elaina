@@ -44,6 +44,7 @@ export const tokenHighlightColors = {
   string: basicColors.green,
   documentation: '#8ca777', // Comment (gray) + String (green)
   regex: '#7cb7ff',
+  namespace: '#55c9ff',
   module: '#55c9ff',
   variable: basicColors.cyan,
 

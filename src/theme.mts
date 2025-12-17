@@ -135,6 +135,7 @@ export const theme = {
   },
   semanticHighlighting: true,
   semanticTokenColors: {
+    namespace: tokenHighlightColors.namespace,
     module: tokenHighlightColors.module,
     variable: tokenHighlightColors.variable,
     method: tokenHighlightColors.method,
